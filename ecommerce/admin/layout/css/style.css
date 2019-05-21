@@ -1,0 +1,93 @@
+* {
+    transition: 0.5s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/551326.jpg") no-repeat;
+    
+}
+form span{
+    position: absolute;
+    color: #262626;
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+    width: 350px;
+    min-height: 200px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-position: right top;
+    
+    
+}
+.login-box input[type="text"],.login-box input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    padding-left: 20px;
+    width: 200px;
+    height: 50px;
+    
+}
+.login-box input[type="text"]:focus,.login-box input[type="password"]:focus{
+    border-bottom: 2px solid #f00;
+}
+.login-box input[type="text"]:hover,.login-box input[type="password"]:hover{
+    border-bottom: 2px solid #d21010;
+}
+
+login-bos img{
+    border-radius:0px;
+}
+.username{
+
+    display: block;
+    margin-bottom: 30px;    
+}
+h2{
+    margin-left: 25%;
+    margin-bottom: 20%;
+    color: #262626;
+}.login-box input[type="submit"]{
+   /* background: linear-gradient(45deg,#d21010,#7042b3); */
+   /*background:linear-gradient(45deg,#efb716,#491890);*/
+   background: linear-gradient(45deg,#7bd235,#491890);
+    cursor: pointer;
+    border: none;
+    
+    width: 100px;
+    height: 30px;
+    margin-left:20%;
+    border-radius: 50px;
+    margin-top: 5%;
+    background-color: #d21010;
+    color:#ffecec;
+    
+}
+.login-box input[type="submit"]:hover{
+    opacity: 0.8;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #d21010;
+}
+footer{
+    margin-top: 45%;
+    margin-left: 31%;
+}
+span:hover {
+    text-decoration: underline;
+}
+.heart{
+    color: #d21010;
+}
